@@ -1,0 +1,22 @@
+{
+    "name": "calc-programm",
+    "version": "1.0.0",
+    "main": "index.html",
+    "window": {
+        "width": 300,
+        "height": 400,
+        "resizable": false
+    },
+    "scripts": {
+        "start": ".\\bin\\nw .",
+        "build": "node build"
+    },
+    "dependencies": {
+        "http-server": "^0.11.1",
+        "livereload": "^0.6.3",
+        "minifyify": "^7.3.5",
+        "tsify": "^3.0.4",
+        "typescript": "^2.6.2",
+        "watchify": "^3.9.0"
+    }
+}
